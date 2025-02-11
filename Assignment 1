@@ -1,0 +1,20 @@
+Use Case: Fraud Detection in Banking
+1. Data
+Data Sources:
+Transaction Data: Logs of customer transactions including time, amount, merchant details, and location.
+Customer Data: Information such as age, account type, past transaction history, and spending patterns.
+Device & IP Data: Device fingerprints, IP addresses, and geolocation to detect anomalies.
+External Fraud Reports: Data from regulatory agencies or fraud databases to recognize known fraud patterns.
+Data Issues:
+Imbalanced Data: Fraudulent transactions are rare compared to legitimate transactions, making it challenging for models to learn effectively.
+Noisy Data: Incorrect or incomplete entries in the database can affect model accuracy.
+Concept Drift: Fraud tactics evolve over time, so models trained on past data may become ineffective.
+Privacy Concerns: Customer financial data must be handled securely, complying with regulations like GDPR or PCI-DSS.
+Types of Data:
+Structured Data: Transaction logs, user demographics, and categorical data like account type.
+Unstructured Data: Customer complaint texts, chat logs with support, and behavioral data.
+Time-Series Data: Sequences of transactions over time to identify anomalies.
+2. Problem Statement
+Banks and financial institutions face increasing fraudulent activities such as unauthorized transactions, identity theft, and account takeovers.
+The goal is to develop a machine learning model that can detect fraudulent transactions in real-time while minimizing false positives.
+The solution should adapt to evolving fraud tactics, ensuring minimal disruption to genuine customers.
